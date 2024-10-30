@@ -12,6 +12,7 @@ path = 'Images{}*'.format(os.sep)  # Use os.sep, Windows, linux have different p
 ###
 
 all_submissions = glob.glob('./src/*')
+print("_______________________________________",len(all_submissions),'_______________________')
 os.makedirs('./results/', exist_ok=True)
 for idx,algo in enumerate(all_submissions):
     print('****************\tRunning Awesome Stitcher developed by: {}  | {} of {}\t********************'.format(algo.split(os.sep)[-1],idx,len(all_submissions)))
