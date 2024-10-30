@@ -2,8 +2,8 @@ import pdb
 import glob
 import cv2
 import os
-from src.JohnDoe import some_function
-from src.JohnDoe.some_folder import folder_func
+from src.YashBachwana import some_function
+from src.YashBachwana.some_folder import folder_func
 
 class PanaromaStitcher():
     def __init__(self):
